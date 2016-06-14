@@ -16,6 +16,9 @@ The accompanying Technical Guide is a suggested pre-requisite prior to begining 
 
 ## More information
 Authors: Brian Blanchard, Marcus Crast, Mitesh Patekar, Jason Rook
+
 Technical reviewers: Andre Muraro, Microsoft Corporation
+
 Published: May 2016 
+
 Applies to: Microsoft Azure IoT Services
