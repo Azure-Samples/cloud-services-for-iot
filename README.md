@@ -11,7 +11,7 @@ This sample consists of four components, each with a unique Readme.md containing
 The first sample project CSP IoT provides sample ARM templates that will deploy the Cloud Services for IoT directly to Azure. 
 
 ## About the code
-The accompanying Technical Guide is a suggested pre-requisite prior to begining deployment. 
+The accompanying [Technical Guide] (https://github.com/Azure-Samples/cloud-services-for-iot/blob/master/IoT-CSP-Technical%20Guides-Start%20Here.docx "Technical Guide") is a suggested pre-requisite prior to begining deployment. 
 
 
 ## More information
