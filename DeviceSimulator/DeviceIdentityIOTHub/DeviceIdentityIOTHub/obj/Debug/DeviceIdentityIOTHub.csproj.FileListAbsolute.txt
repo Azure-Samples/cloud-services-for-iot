@@ -1,0 +1,36 @@
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.exe.config
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.pdb
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Newtonsoft.Json.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Web.Http.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.pdb
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.pdb
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Newtonsoft.Json.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Web.Http.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.csprojResolveAssemblyReference.cache
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.exe.config
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\DeviceIdentityIOTHub.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Web.Http.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\bin\Debug\System.Web.Http.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceIdentityIOTHub\DeviceIdentityIOTHub\obj\Debug\DeviceIdentityIOTHub.csprojResolveAssemblyReference.cache

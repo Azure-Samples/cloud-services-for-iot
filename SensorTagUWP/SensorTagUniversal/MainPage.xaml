@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="SensorTagUniversal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SensorTagUniversal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    mc:Ignorable="d">
+
+
+    <Page.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFD7730E"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#FFD7730E"/>
+        </Style>
+    </Page.Resources>
+    <Grid Margin="0,0,10,10" BorderBrush="Black" Background="{ThemeResource BackButtonPressedForegroundThemeBrush}" CornerRadius="10" RequestedTheme="Light">
+        <Button x:Name="Initialize" Content="Initialize" HorizontalAlignment="Left" Margin="251,274,0,0" VerticalAlignment="Top" Click="Initialize_click" Width="88"/>
+        <TextBlock x:Name="temp1_Copy1" HorizontalAlignment="Left" Margin="25,75,0,0" TextWrapping="Wrap" Text="Ambient Temperature" VerticalAlignment="Top" />
+        <TextBlock x:Name="AmbientRes" FontSize="50" HorizontalAlignment="Left" Margin="22,95,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Visibility="Collapsed"/>
+        <TextBlock x:Name="temp2_Copy" HorizontalAlignment="Left" Margin="25,174,0,0" TextWrapping="Wrap" Text="Target Temperature" VerticalAlignment="Top" />
+        <TextBlock x:Name="TargetRes" HorizontalAlignment="Left" Margin="28,199,0,0" TextWrapping="Wrap" Text="0.00" VerticalAlignment="Top" Visibility="Collapsed"/>
+        <TextBlock x:Name="humidityBlock" HorizontalAlignment="Left" Margin="253,75,0,0" TextWrapping="Wrap" Text="Humidity" VerticalAlignment="Top" />
+        <TextBlock x:Name="humidityRes" FontSize="50" HorizontalAlignment="Left" Margin="253,101,0,0" TextWrapping="Wrap" Text="0.00%" VerticalAlignment="Top"  Visibility="Collapsed"/>
+        <Button x:Name="ReadData" Content="Read Data" HorizontalAlignment="Left" Margin="251,309,0,0" VerticalAlignment="Top" Click="ReadTemperature_click" IsEnabled="False"/>
+        <Button x:Name="SendIoTHub" Content="Send To IoT" HorizontalAlignment="Left" Margin="417,156,0,0" VerticalAlignment="Top" Click="SendIoT_click" IsEnabled="False" Width="98"/>
+        <TextBlock x:Name="temp1_Copy" HorizontalAlignment="Left" Margin="22,22,0,0" TextWrapping="Wrap" Text="10M Field Gatway - TI SensorTag" VerticalAlignment="Top" Width="325" FontSize="21.333"/>
+        <TextBlock x:Name="modelNumber" HorizontalAlignment="Left" Margin="25,265,0,0" TextWrapping="Wrap" Text="M.No " VerticalAlignment="Top" />
+        <TextBlock x:Name="serialNumber" HorizontalAlignment="Left" Margin="25,316.379,0,0" TextWrapping="Wrap" Text="SrNo " VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+            <TextBlock.RenderTransform>
+                <CompositeTransform Rotation="0.802"/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBox x:Name="IoTHubSentMsgText" HorizontalAlignment="Left" Margin="417,199,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="151" Width="204" IsReadOnly="True" Visibility="Visible"/>
+        <Button x:Name="Initialize_Copy" Content="Refresh" HorizontalAlignment="Left" Margin="251,239,0,0" VerticalAlignment="Top" Click="Refresh_click" Width="88"/>
+        <TextBlock x:Name="modelNumber_Copy" HorizontalAlignment="Left" Margin="25,245,0,0" TextWrapping="Wrap" Text="Model Name " VerticalAlignment="Top" />
+        <TextBlock x:Name="serialNumber_Copy" HorizontalAlignment="Left" Margin="25,291,0,0" TextWrapping="Wrap" Text="Serial Number " VerticalAlignment="Top" />
+        <Button x:Name="ConnectIoTHub" Content="Connect To IoT Hub" HorizontalAlignment="Left" Margin="417,38,0,0" VerticalAlignment="Top" Click="ConnectIoT_click" IsEnabled="False" Width="204"/>
+        <TextBox x:Name="IoTHubUri" HorizontalAlignment="Left" Margin="417,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="9" Width="204" Visibility="Visible" IsEnabled="False" PlaceholderText="IoT Hub URI"/>
+        <TextBox x:Name="IoTDeviceKey" HorizontalAlignment="Left" Margin="417,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="9" Width="204" Visibility="Visible" IsEnabled="False" PlaceholderText="IoT Device Key"/>
+        <Button x:Name="StopIoTHub" Content="Stop" HorizontalAlignment="Left" Margin="520,156,0,0" VerticalAlignment="Top" Click="StopIoT_click" IsEnabled="False" Width="101"/>
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Page>

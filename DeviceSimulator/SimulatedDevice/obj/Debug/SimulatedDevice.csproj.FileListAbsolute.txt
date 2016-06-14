@@ -1,0 +1,56 @@
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\SimulatedDevice.exe.config
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\SimulatedDevice.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\SimulatedDevice.pdb
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Microsoft.Azure.Amqp.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.Client.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Newtonsoft.Json.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Microsoft.Azure.Amqp.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Newtonsoft.Json.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\obj\Debug\SimulatedDevice.csprojResolveAssemblyReference.cache
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\obj\Debug\SimulatedDevice.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\obj\Debug\SimulatedDevice.pdb
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\System.Web.Http.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\System.Web.Http.xml
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Buffers.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Codecs.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Codecs.Mqtt.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Common.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Handlers.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\DotNetty.Transport.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Mono.Security.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\PCLCrypto.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Validation.dll
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\PCLCrypto.xml
+C:\Users\MiteshPatekar\Documents\Visual Studio 2015\Projects\IOTHubConsoleApp\SimulatedDevice\bin\Debug\Validation.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\SimulatedDevice.exe.config
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\obj\Debug\SimulatedDevice.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\obj\Debug\SimulatedDevice.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\SimulatedDevice.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\SimulatedDevice.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Buffers.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Codecs.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Codecs.Mqtt.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Common.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Handlers.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\DotNetty.Transport.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Microsoft.Azure.Amqp.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.Client.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Mono.Security.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\PCLCrypto.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\System.Web.Http.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Validation.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Microsoft.Azure.Amqp.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Microsoft.Azure.Devices.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Newtonsoft.Json.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\PCLCrypto.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\System.Web.Http.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\bin\Debug\Validation.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\SimulatedDevice\obj\Debug\SimulatedDevice.csprojResolveAssemblyReference.cache

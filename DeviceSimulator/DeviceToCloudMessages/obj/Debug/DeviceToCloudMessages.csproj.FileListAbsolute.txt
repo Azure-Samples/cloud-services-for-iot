@@ -1,0 +1,18 @@
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.csprojResolveAssemblyReference.cache
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.exe.config
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.pdb
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\Microsoft.ServiceBus.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\bin\Debug\Microsoft.ServiceBus.xml
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.exe
+c:\users\miteshpatekar\documents\visual studio 2015\Projects\IOTHubConsoleApp\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.exe.config
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.exe
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\DeviceToCloudMessages.pdb
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\Microsoft.ServiceBus.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\bin\Debug\Microsoft.ServiceBus.xml
+C:\Users\MiteshPatekar\Documents\10MSourceCodes\iotdevicesimulator\DeviceToCloudMessages\obj\Debug\DeviceToCloudMessages.csprojResolveAssemblyReference.cache

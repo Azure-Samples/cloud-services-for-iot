@@ -1,0 +1,137 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "outputs": {
+    "hubKeys": {
+      "value": "[listKeys(resourceId('Microsoft.StreamAnalytics/streamingjobs', parameters('streamAnalyticsName')), '2016-02-03')]",
+      "type": "object"
+    },
+    "BlobUri": {
+      "value": "[reference(concat('Microsoft.Storage/storageAccounts/', variables('storageAccountName')), providers('Microsoft.Storage', 'storageAccounts').apiVersions[0]).primaryEndpoints.blob]",
+      "type": "string"
+    }
+  },
+  "parameters": {
+    "streamAnalyticsName": {
+      "type": "string"
+    },
+    "iotHubName": {
+      "type": "string"
+    },
+    "storageAccountType": {
+      "type": "string",
+      "defaultValue": "Standard_LRS",
+      "allowedValues": [
+        "Standard_LRS",
+        "Standard_GRS",
+        "Standard_ZRS",
+        "Premium_LRS"
+      ],
+      "metadata": {
+        "description": "Storage Account type"
+      }
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Storage/storageAccounts",
+      "name": "[variables('storageAccountName')]",
+      "apiVersion": "2015-06-15",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "accountType": "[parameters('storageAccountType')]"
+      }
+    },
+    {
+        "apiVersion": "2016-02-03",
+        "type": "Microsoft.Devices/IotHubs",    
+        "name": "[parameters('iotHubName')]",
+        "location": "East US",
+      "sku": {
+        "name": "S1",
+        "tier": "Standard",
+        "capacity": 1
+      },
+        "properties": {
+          "location": "East US"
+        }
+      },
+    {
+      "apiVersion": "2015-06-01",
+      "type": "Microsoft.StreamAnalytics/streamingjobs",
+      "name": "[parameters('streamAnalyticsName')]",
+      "location": "Central US",
+      "dependsOn": [
+        "[concat('Microsoft.Storage/storageAccounts/', variables('storageAccountName'))]",
+        "[concat('Microsoft.Devices/IotHubs/', parameters('iotHubName'))]"
+      ],
+      "properties": {
+        "eventsOutOfOrderMaxDelayInSeconds": 10,
+        "eventsOutOfOrderPolicy": "drop",
+        "inputs": [
+          {
+            "name": "[variables('streamInput')]",
+            "properties": {
+              "type": "stream",
+              "serialization": {
+                "type": "JSON",
+                "properties": {
+                  "encoding": "UTF8"
+                }
+              },
+              "datasource": {
+                "type": "Microsoft.Devices/IotHubs",
+                "properties": {
+                  "iotHubNamespace": "[parameters('iotHubName')]",
+                  "sharedAccessPolicyName": "[listKeys(resourceId('Microsoft.Devices/IotHubs', parameters('iotHubName')), '2016-02-03').value[0].keyName]",
+                  "sharedAccessPolicyKey": "[listKeys(resourceId('Microsoft.Devices/IotHubs', parameters('iotHubName')), '2016-02-03').value[0].primaryKey]"
+                }
+              }
+            }
+          }
+        ],
+        "outputs": [
+          {
+            "name": "[variables('streamOutput')]",
+            "properties": {
+              "datasource": {
+                "type": "Microsoft.Storage/Blob",
+                "storageAccounts": [
+                  {
+                    "accountName": "[variables('storageAccountName')]",
+                    "accountKey": "[listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2015-06-15').key1]",
+                    "container": "[variables('storageBlobContainer')]",
+                    "pathPattern": "[variables('storagePathPrefix')]",
+                    "dateFormat": "",
+                    "timeFormat": ""
+                  }
+                ],
+                "blobPathPrefix": ""
+              }
+            }
+          }
+        ],
+        "sku": {
+          "name": "standard"
+        },
+        "transformation": {
+          "name": "[variables('streamQueryName')]",
+          "properties": {
+            "streamingUnits": 1,
+            "query": "[variables('streamQuerySyntax')]"
+          }
+        }
+      }
+
+    }
+  ],
+  "variables": {
+    "storageAccountName": "[concat(uniquestring(resourceGroup().id), 'standardsa')]",
+    "storageBlobContainer": "sampleData",
+    "storagePathPrefix": "concat(variables('storageAccountName'), '/{date}/{time}')",
+    "streamInput": "streamInput",
+    "streamOutput": "streamInput",
+    "streamQueryName": "streamQuery",
+    "streamQuerySyntax": "select * into variables('streamInput') from variables('streamOutput')"
+  }
+}
