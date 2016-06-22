@@ -22,3 +22,6 @@ Technical reviewers: Andre Muraro, Microsoft Corporation
 Published: May 2016 
 
 Applies to: Microsoft Azure IoT Services
+
+##Open Source Code of Conduct
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
