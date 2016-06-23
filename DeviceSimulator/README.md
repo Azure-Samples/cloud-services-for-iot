@@ -2,7 +2,7 @@
 Before connecting a physical device to the Cloud Services for IoT, it is suggested that a simulator project be used to test connectivity, model data payloads, and create initial report/dashboard templates. This technical guide will help Cloud Service Providers (CSP) configure the simulator provided in the accompanying source code. Once configured, it will push simulated data into the IoT Hub and other components of the deployed solution.
 
 ## Technical Guide
-This technical guide will show you how to deploy the sensor simulator portion of the Azure IoT-in-a-Box CSP Solution to the CSP Azure Portal. When you've completed this guide, you will have provisioned and configured the following resources:
+This technical guide will show you how to deploy the sensor simulator portion of the Azure CSP In-A-Box for IoT Solution to the Azure Portal. When you've completed this guide, you will have provisioned and configured the following resources:
 
 +	An App Service (previously referred to as Azure Web Apps) dedicated to Azure WebJobs
 +	An Azure SQL Database dedicated to the backend of the Azure WebJobs application
