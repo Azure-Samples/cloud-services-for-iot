@@ -1,6 +1,6 @@
 # Building & Automating Hadoop Scripts
 
-Hadoop is a powerful software framework and file system that can store a variety of different data sets of all shapes, sizes, speed, etc.  Generally speaking, it is the database software behind the industry term:  "Big Data".  Hadoop is much more than a database as it provides the platform for processing and ingesting data as well.  For this guide Hadoop is the persistent storage layer for more advanced data analysis of the CSP IoT-in-a-Box sensor data, specifically we will leverage the Hive component of the Hadoop ecosystem.  Hive is a data warehouse framework that was originally developed but Facebook, its purpose is for query, analysis, and most importantly data summarization.  Hive is typically where you'll find your traditional fact and dimension tables when you migrate your Enterprise Data Warehouse into the Hadoop/HDFS infrastructure.  This guide will walk you through parsing the sensor file/s, loading the sensor files into a table, and then grouping that data a series of columns in the CSV file and then persisting the aggregated output into an Azure Storage Table.  After you complete this guide you will have the following assets:
+Hadoop is a powerful software framework and file system that can store a variety of different data sets of all shapes, sizes, speed, etc.  Generally speaking, it is the database software behind the industry term:  "Big Data".  Hadoop is much more than a database as it provides the platform for processing and ingesting data as well.  For this guide Hadoop is the persistent storage layer for more advanced data analysis of the CSP In-A-Box for IoT sensor data, specifically we will leverage the Hive component of the Hadoop ecosystem.  Hive is a data warehouse framework that was originally developed but Facebook, its purpose is for query, analysis, and most importantly data summarization.  Hive is typically where you'll find your traditional fact and dimension tables when you migrate your Enterprise Data Warehouse into the Hadoop/HDFS infrastructure.  This guide will walk you through parsing the sensor file/s, loading the sensor files into a table, and then grouping that data a series of columns in the CSV file and then persisting the aggregated output into an Azure Storage Table.  After you complete this guide you will have the following assets:
 
   - HiveQL Script to process and transform the raw sensor data into a Hive table format (rows and columns)
   - HiveQL table including summarized sensor data
@@ -11,7 +11,7 @@ Hadoop is a powerful software framework and file system that can store a variety
 +  PC with an RTM version of Windows 10 (the cluster is a Linux cluster, the UX is almost identical on Linux clients but this guidance is from the Windows 10 experience)
 +  Provisioned CSP account and customer subscription in portal
 +  Access to a CSP Subscription (this assumes you already have a co-admin login for a CSP subscription)
-+  Deployed Azure CSP IoT-in-a-Box Solution #2 to the customer subscription
++  Deployed Azure CSP In-A-Box for IoT Solution #2 to the customer subscription
 +  Some raw sensor data has been fed into Azure Storage account
 +  Hadoop credential used in the ARM template of solution #2
 
