@@ -4,7 +4,7 @@ The first step in deploying a Cloud Services solution for Device Monitoring or D
 
 ## Technical Guide
 
-This technical guide will show you how to deploy the entire Azure IoT CSP Solution to the CSP Azure Portal.  When you've completed this guide, you will have provisioned and configured the following resources:
+This technical guide will show you how to deploy the entire Azure IoT CSP Solution to the Azure Portal.  When you've completed this guide, you will have provisioned and configured the following resources:
 
 +	A Cloud Service for IoT solution deployed to a single Resource Group in a single Azure region
 +	A locally redundant Azure Storage Account, supporting data processing containers
