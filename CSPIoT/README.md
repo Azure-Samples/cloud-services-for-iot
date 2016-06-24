@@ -1,6 +1,6 @@
 # Deploying the Azure IoT Infrastructure
 
-The first step in deploying a Cloud Services solution for Device Monitoring or Device Analytics, is to create the necessary infrastructure. This guide will aid the reader in deploying the solution using Azure Resource Manager (ARM) templates in a repeatable process that makes it easy to rapidly configure new IoT solutions.
+The first step in deploying a Cloud Services solution for Device Monitoring or Data Management for Devices, is to create the necessary infrastructure. This guide will aid the reader in deploying the solution using Azure Resource Manager (ARM) templates in a repeatable process that makes it easy to rapidly configure new IoT solutions.
 
 ## Technical Guide
 
@@ -62,7 +62,7 @@ Once the account is authenticated, you will need to fill out the deployment para
 > Template parameters file: cspiot.parameters.json
 > -----------------------
 >
-> **Device Analytics:** If deeper analytic capabilities are required, the HDInsights or DocDB options are suggested.
+> **Data Management for Devices:** If deeper analytic capabilities are required, the HDInsights or DocDB options are suggested.
 > **Option 1: HDInsight**
 > -----------------------
 > Deployment template: HDInsight.deploy.json
